@@ -1,9 +1,9 @@
 {
   "bill_type": "Tax Invoice",
   "bill_number": "IP15024867",
-  "bill_date": null,
+  "bill_date": "2026-04-30",
   "hospital": {
-    "name": "74                                RA                        can.F as",
+    "name": "YASHODA Hospital",
     "address": "D No 1-$-154,157 & 157/2, Plot No 64, Botund Hari Hare Kal Dheven, SP Raed, Senmierabed - 500 00] Th 3771 3133, Fac 2770909",
     "phone": null,
     "email": null,
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Hospital Bills\\2022042700585.R1.2_0b595525-4db8-44da-a3d3-af7c2f92025c.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Hospital Bills\\2022042700585.R1.2_0b595525-4db8-44da-a3d3-af7c2f92025c.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.22,
-    "extracted_at": "2026-02-21T13:43:10.973470",
+    "processing_time_s": 1.12,
+    "extracted_at": "2026-02-23T15:34:52.435976",
     "raw_text_chars": 1597,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

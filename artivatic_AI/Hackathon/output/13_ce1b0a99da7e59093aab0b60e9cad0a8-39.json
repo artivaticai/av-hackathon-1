@@ -1,7 +1,7 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": null,
-  "bill_date": null,
+  "bill_date": "2021-03-27",
   "hospital": {
     "name": "-                                   ®                                                        Cash Memo No: CA-19689    \\",
     "address": "G         ‘| 4th Floor, Millennium Star Extension, Above KFC restaurant, Adjacent To Ruby Hall Entrance                              ‘, Gate, Dhole Patil Road, Pune-411001Tel.8888988884 COURIER-9049929592",
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Pharmacy Bills\\13_ce1b0a99da7e59093aab0b60e9cad0a8-39.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Pharmacy Bills\\13_ce1b0a99da7e59093aab0b60e9cad0a8-39.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.09,
-    "extracted_at": "2026-02-21T13:43:42.623844",
+    "processing_time_s": 1.04,
+    "extracted_at": "2026-02-23T15:35:20.086588",
     "raw_text_chars": 1059,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

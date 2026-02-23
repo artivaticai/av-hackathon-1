@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Pharmacy"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,20 +48,106 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": null,
+    "gross_total": 2270.41,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null
+    "amount_in_words": null,
+    "_warnings": [
+      "gross_total computed by summing all line items (≥5 items, no dominant single item)"
+    ]
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "(24/09/2025, 06:21PM)              10",
+      "category": "Other",
+      "quantity": 16.33,
+      "unit_rate": 163.28,
+      "amount": 163.28
+    },
+    {
+      "description": "(24/09/2025, 06:21PM)                       15",
+      "category": "Other",
+      "quantity": 19.96,
+      "unit_rate": 299.41,
+      "amount": 299.41
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 321.09,
+      "unit_rate": 321.09,
+      "amount": 321.09
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 68.0,
+      "unit_rate": 68.0,
+      "amount": 68.0
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 249.0,
+      "unit_rate": 249.0,
+      "amount": 249.0
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 252.19,
+      "unit_rate": 252.19,
+      "amount": 252.19
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 288.39,
+      "unit_rate": 288.39,
+      "amount": 288.39
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 264.0,
+      "unit_rate": 264.0,
+      "amount": 264.0
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                       1",
+      "category": "Other",
+      "quantity": 235.0,
+      "unit_rate": 235.0,
+      "amount": 235.0
+    },
+    {
+      "description": "(23/09/2025, 02:53AM)                       2",
+      "category": "Other",
+      "quantity": 44.91,
+      "unit_rate": 89.82,
+      "amount": 89.82
+    },
+    {
+      "description": "(23/09/2025, 02:53AM)                       3",
+      "category": "Other",
+      "quantity": 13.41,
+      "unit_rate": 40.23,
+      "amount": 40.23
+    }
+  ],
   "payments": [],
+  "page_info": {
+    "page": 6,
+    "total_pages": 9
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Interim Bills\\image (5) (5).JPG",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Interim Bills\\image (5) (5).JPG",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.53,
-    "extracted_at": "2026-02-21T13:43:17.997686",
+    "processing_time_s": 1.33,
+    "extracted_at": "2026-02-23T15:34:58.430096",
     "raw_text_chars": 4138,
-    "line_items_found": 0
+    "line_items_found": 11,
+    "extractor_version": "v10"
   }
 }

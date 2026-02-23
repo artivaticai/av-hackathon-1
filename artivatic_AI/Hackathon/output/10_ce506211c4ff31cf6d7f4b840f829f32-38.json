@@ -4,7 +4,7 @@
   "bill_date": "2020-04-04",
   "hospital": {
     "name": "ozezoetsze dr3 OuYA eremyos Guid 18949",
-    "address": "SIRSA KASNA ROAD GREATER NOIDA (UP}-201311                                          Patient Address Sensors, GSTIN : COAEAFS6844Q1Z7                           Invoice No. : 0000396 Date: 04-04-2020",
+    "address": "SIRSA KASNA ROAD GREATER NOIDA (UP}-201311                                          Patient Address Sensors, GSTIN : COAEAFS6844Q127                           Invoice No. : 0000396 Date: 04-04-2020",
     "phone": null,
     "email": null,
     "gstin": null
@@ -54,22 +54,15 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [
-    {
-      "description": "11./SSML              h    3004 [O2BOS6NH2— [7/25          345    3.45)",
-      "category": "Other",
-      "quantity": 6.001,
-      "amount": 6.0,
-      "exc_amount": 13.8
-    }
-  ],
+  "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Pharmacy Bills\\10_ce506211c4ff31cf6d7f4b840f829f32-38.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Pharmacy Bills\\10_ce506211c4ff31cf6d7f4b840f829f32-38.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.49,
-    "extracted_at": "2026-02-21T13:43:38.324983",
+    "processing_time_s": 1.27,
+    "extracted_at": "2026-02-23T15:35:16.210551",
     "raw_text_chars": 2399,
-    "line_items_found": 1
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

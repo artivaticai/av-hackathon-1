@@ -1,7 +1,7 @@
 {
   "bill_type": "Final Bill",
   "bill_number": "002999",
-  "bill_date": "2025-05-25",
+  "bill_date": null,
   "hospital": {
     "name": "fs) IND TA Do TA f:",
     "address": "Bill No. 002999                                                                          Date of Admission: 25/05/2025, O NH-48, Delhi-Jaipur Road, Neemrana (Kotputli-Behror) Raj. - 301705",
@@ -54,14 +54,26 @@
     "balance_due": null,
     "amount_in_words": "FOURTY THOUSAND FIVE HUNDRED ONLY"
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "LAB CHARGE",
+      "category": "Other",
+      "amount": 6828.0
+    },
+    {
+      "description": "MEDICINE CHARGE",
+      "category": "Other",
+      "amount": 12872.0
+    }
+  ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Summary Bills\\2025061200100.R1_261e0d9c-f40f-4de5-ad2b-a9bd37e2015a.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Summary Bills\\2025061200100.R1_261e0d9c-f40f-4de5-ad2b-a9bd37e2015a.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.21,
-    "extracted_at": "2026-02-21T13:43:47.880413",
+    "processing_time_s": 1.05,
+    "extracted_at": "2026-02-23T15:35:24.651784",
     "raw_text_chars": 2470,
-    "line_items_found": 0
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

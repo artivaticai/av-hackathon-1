@@ -1,7 +1,7 @@
 {
   "bill_type": "Interim Bill",
   "bill_number": null,
-  "bill_date": "2025-10-19",
+  "bill_date": null,
   "hospital": {
     "name": "C@s— QOLSOQ O10 4",
     "address": "Near Varadhl, (Near Vijayawada), Tadepall,Guntur Dist - 522501 Ph: 08645-660966         *., Name               SS                                           Rog No.            + MHO17066458",
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,58 +48,116 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 25160.0,
+    "gross_total": 63250.0,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
     "amount_in_words": null,
     "_warnings": [
-      "gross_total computed from all line items"
+      "gross_total computed by summing all line items (≥5 items, no dominant single item)"
     ]
   },
   "line_items": [
     {
+      "description": "{IPBEOC1) Admission Charges",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 400.0,
+      "amount": 400.0
+    },
+    {
       "description": "qreepcano 1] BED CHARGES - STANDARD, MHVWSTOA-4311",
       "category": "Service Charges",
       "quantity": 5.0,
-      "amount": 1500.0,
-      "exc_amount": 7500.0
+      "unit_rate": 1500.0,
+      "amount": 7500.0
+    },
+    {
+      "description": "(1PBEDC206 | BED CHARGES - MICU, MHVICU1-3211",
+      "category": "Service Charges",
+      "quantity": 1.0,
+      "unit_rate": 6000.0,
+      "amount": 5000.0
+    },
+    {
+      "description": "[IPBEDC322] NURSING CHARGES - STANDARD",
+      "category": "Nursing",
+      "quantity": 5.0,
+      "unit_rate": 200.0,
+      "amount": 4000.0
+    },
+    {
+      "description": "[1PBEDC225] NURSING CHARGES - ICU",
+      "category": "Nursing",
+      "quantity": 4.0,
+      "unit_rate": 500.0,
+      "amount": 600.0
+    },
+    {
+      "description": "[CIPANAOS] ANAESTHESIA - CONSULTATION IP OR SAGAR",
+      "category": "OT / Surgery",
+      "quantity": 1.0,
+      "unit_rate": 900.0,
+      "amount": 900.0
+    },
+    {
+      "description": "{CIPD007] DIETARY WARDS- CONSULTATION",
+      "category": "Consultation",
+      "quantity": 1.0,
+      "unit_rate": 250.0,
+      "amount": 250.0
     },
     {
       "description": "ICIPNSRO1] NEUROSURGERY - CONSULTATION IP (OR",
       "category": "OT / Surgery",
       "quantity": 6.0,
-      "amount": 1400.0,
-      "exc_amount": 8400.0
+      "unit_rate": 1400.0,
+      "amount": 8400.0
+    },
+    {
+      "description": "[IMS004] Post OT Monitoring Charges Minor",
+      "category": "OT / Surgery",
+      "quantity": 1.0,
+      "unit_rate": 1280.0,
+      "amount": 4280.0
+    },
+    {
+      "description": "[PADM360] Resident Medical Doctor Fee",
+      "category": "Consultation",
+      "quantity": 6.0,
+      "unit_rate": 200.0,
+      "amount": 1200.0
+    },
+    {
+      "description": "{AMED088] CAUTERY MACHINE - CHARGES",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 300.0,
+      "amount": 30000.0
+    },
+    {
+      "description": "[AMED117] Intubation Scope",
+      "category": "OT / Surgery",
+      "quantity": 1.0,
+      "unit_rate": 20.0,
+      "amount": 20.0
     },
     {
       "description": "JAMED168] Basic Monitor (Eog*Nibp+Spo2)24 Hours",
       "category": "Other",
       "quantity": 1.0,
-      "amount": 700.0,
-      "exc_amount": 700.0
-    },
-    {
-      "description": "SRINIVAS RAO T)",
-      "category": "Other",
-      "amount": 1280.0,
-      "exc_amount": 4280.0
-    },
-    {
-      "description": "Monitoring Charges Minor",
-      "category": "Service Charges",
-      "quantity": 1.0,
-      "amount": 1280.0,
-      "exc_amount": 4280.0
+      "unit_rate": 700.0,
+      "amount": 700.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Interim Bills\\int-1 (1).jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Interim Bills\\int-1 (1).jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.61,
-    "extracted_at": "2026-02-21T13:43:20.829591",
+    "processing_time_s": 1.54,
+    "extracted_at": "2026-02-23T15:35:00.910804",
     "raw_text_chars": 4942,
-    "line_items_found": 5
+    "line_items_found": 13,
+    "extractor_version": "v10"
   }
 }

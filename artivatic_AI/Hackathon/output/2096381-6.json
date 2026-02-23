@@ -1,7 +1,7 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": null,
-  "bill_date": "2020-03-30",
+  "bill_date": "2018-10-11",
   "hospital": {
     "name": "ID.No         Fi = NAME        {S    Age               ;",
     "address": "CONSUMABLE EMESET INS 2ML.                 1670183 30040020         1           i             | 0.00, CONSUMABLE NS SOOML 1*S00ML           40680339 30/03/2021         ]          6             426",
@@ -54,14 +54,56 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "INIENS JOOML(CLA RIS)                          40680402 30/05/2021",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": null,
+      "amount": 5.52
+    },
+    {
+      "description": "(NJ Iq-mol in}                                    ATIS6 30/05/2019",
+      "category": "Other",
+      "quantity": 4.0,
+      "unit_rate": null,
+      "amount": 75000.0
+    },
+    {
+      "description": "INH NS IOOML({CLARIS)                     40680402 30/05/2021",
+      "category": "Other",
+      "quantity": 3.0,
+      "unit_rate": null,
+      "amount": 10656.0
+    },
+    {
+      "description": "SUR Syringe -10 mi(b.d,)                            BNA24 30/01/2021",
+      "category": "Consumable",
+      "quantity": 3.0,
+      "unit_rate": null,
+      "amount": 6600.0
+    },
+    {
+      "description": "[NJ Ceftor tem                                CPRL-0S 30/03/2020",
+      "category": "Other",
+      "quantity": 2.0,
+      "unit_rate": null,
+      "amount": 113.3
+    },
+    {
+      "description": "Rounded Off",
+      "category": "Other",
+      "amount": 5339.0
+    }
+  ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Discharge Bills\\2096381-6.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Discharge Bills\\2096381-6.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.43,
-    "extracted_at": "2026-02-21T13:42:57.191091",
+    "processing_time_s": 1.8,
+    "extracted_at": "2026-02-23T15:34:41.030078",
     "raw_text_chars": 3914,
-    "line_items_found": 0
+    "line_items_found": 6,
+    "extractor_version": "v10"
   }
 }

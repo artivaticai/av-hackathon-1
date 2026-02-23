@@ -56,26 +56,28 @@
   },
   "line_items": [
     {
+      "description": "t      REGISTRATION CHARGES",
+      "category": "Administrative",
+      "quantity": 1.0,
+      "unit_rate": 100.0,
+      "amount": 100.0
+    },
+    {
       "description": "2       EMERGENCY CONSULTATION            Dr. OR.TEJAS CHOTAL",
       "category": "Consultation",
       "quantity": 1.0,
-      "amount": 2000.0,
-      "exc_amount": 2600.0
-    },
-    {
-      "description": "CHARGE SUPERSPECIAUIST",
-      "category": "Other",
-      "amount": 2100.0,
-      "exc_amount": 2100.0
+      "unit_rate": 2000.0,
+      "amount": 2600.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\OPD Bills\\34_656d199813bcb6f179a3e15763ae548f-32.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\OPD Bills\\34_656d199813bcb6f179a3e15763ae548f-32.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.2,
-    "extracted_at": "2026-02-21T13:43:34.074469",
+    "processing_time_s": 0.95,
+    "extracted_at": "2026-02-23T15:35:12.551231",
     "raw_text_chars": 1767,
-    "line_items_found": 2
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

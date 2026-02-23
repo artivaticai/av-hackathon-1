@@ -3,14 +3,14 @@
   "bill_number": "IBM/223/25",
   "bill_date": "2025-12-30",
   "hospital": {
-    "name": "a  ie Be   ——  1,  _",
+    "name": "YASHODA Hospital",
     "address": "D No t-1-34,157 & 15772, Plot No G4, Bctuad Heri Herp Kata DSven, § P. Ret,, Bromloakit - £7000) Ph 2770 3333, Pew 27795992",
     "phone": "2770 3333,",
     "email": "lourdeshospital@venl.com",
     "gstin": null
   },
   "patient": {
-    "name": "t",
+    "name": "Dr. Harsh Mepani",
     "age": 26,
     "dob": null,
     "gender": "Female",
@@ -48,68 +48,41 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 26931.21,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": "Eighteen Thousand Five Hundred Twenty Six Only",
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": "Eighteen Thousand Five Hundred Twenty Six Only"
   },
   "line_items": [
     {
-      "description": "CORDARONE 100MG TAB 108 SOLID,           5.80",
-      "category": "Pharmacy",
-      "quantity": 10.0,
-      "amount": 58.0,
-      "exc_amount": 58.0
+      "description": "13 03-04-2025 HCV(1&2) (LAB-0026)                                                          1.0             1210.00",
+      "category": "Lab / Diagnostics",
+      "quantity": 0.0,
+      "amount": 1210.0
     },
     {
-      "description": "2             ositun2025 ‘| Registration Charges",
-      "category": "Administrative",
-      "quantity": 1.0,
-      "amount": 200.0,
-      "exc_amount": 200.0
-    },
-    {
-      "description": "3            SiJuni2025 | RMO Charges",
+      "description": "21       01-04-2025 MEDICINE CHARGES (MEDi1}                      pe                1.0           16836.00",
       "category": "Other",
-      "quantity": 2.0,
-      "amount": 200.0,
-      "exc_amount": 1600.0
-    },
-    {
-      "description": "RLCOD UREA                39                10 - 50 MG/DL",
-      "category": "Other",
-      "amount": 11.09
-    },
-    {
-      "description": "HEALTHCARE CENTRE",
-      "category": "Other",
-      "amount": 2.0,
-      "exc_amount": 164.0
-    },
-    {
-      "description": "GOPINATH MEDICAL STORE",
-      "category": "Other",
-      "quantity": 104.0,
-      "amount": 9898.12
-    },
-    {
-      "description": "CATEGORY                               : GENERAL",
-      "category": "Other",
-      "amount": 4.0,
-      "exc_amount": 15000.0
+      "quantity": 0.0,
+      "amount": 1683600.0
     }
   ],
   "payments": [],
+  "prepared_by": {
+    "name": "B"
+  },
+  "page_info": {
+    "page": 1,
+    "total_pages": 2
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Testing data\\int-5.pdf",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Testing data\\int-5.pdf",
     "ocr_engine": "tesseract",
-    "processing_time_s": 30.77,
-    "extracted_at": "2026-02-21T13:46:31.101226",
-    "raw_text_chars": 30670,
-    "line_items_found": 7
+    "processing_time_s": 29.56,
+    "extracted_at": "2026-02-23T15:37:56.864216",
+    "raw_text_chars": 30490,
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

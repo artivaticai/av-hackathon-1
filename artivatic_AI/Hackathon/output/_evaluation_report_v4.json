@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-02-23T15:38:32.936857",
+  "timing": {
+    "total_files": 55,
+    "total_s": 220.39,
+    "avg_s": 4.01,
+    "min_s": 0.63,
+    "max_s": 31.35,
+    "p50_s": 1.43,
+    "p90_s": 2.24
+  },
+  "cost": {
+    "total_usd": 0.0,
+    "per_doc": 0.0,
+    "engine": "tesseract_local"
+  },
+  "code_quality": {
+    "error": "Script not found: C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\hospital_bill_extractor_v9.py"
+  },
+  "scores": {
+    "Accuracy (field)": 97.3,
+    "Line-Item Accuracy": 33.64,
+    "Cost Efficiency": 100.0,
+    "Response Time": 93.32,
+    "Code Quality": 70
+  },
+  "weights": {
+    "Accuracy (field)": 2.0,
+    "Line-Item Accuracy": 1.5,
+    "Cost Efficiency": 1.0,
+    "Response Time": 1.0,
+    "Code Quality": 1.0
+  },
+  "overall_score": 78.21,
+  "accuracy": {
+    "TP": 11,
+    "TN": 25,
+    "FP": 1,
+    "FN": 0,
+    "overall_pct": 97.3,
+    "precision_pct": 91.67,
+    "recall_pct": 100.0,
+    "f1_pct": 95.65,
+    "threshold_met": true
+  },
+  "per_document": [
+    {
+      "file": "1981063-2.json",
+      "time_s": 2.12,
+      "TP": 7,
+      "TN": 10,
+      "FP": 1,
+      "FN": 0,
+      "accuracy": 94.44,
+      "f1": 93.33
+    },
+    {
+      "file": "2042173-10.json",
+      "time_s": 1.79,
+      "TP": 4,
+      "TN": 15,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "f1": 100.0
+    }
+  ],
+  "line_item_accuracy": {
+    "gt_count": 55,
+    "extracted_count": 26,
+    "matched_full": 17,
+    "matched_desc_only": 1,
+    "matched_amt_only": 2,
+    "missed": 35,
+    "spurious": 6,
+    "total_credit": 18.5,
+    "pct": 33.64
+  }
+}

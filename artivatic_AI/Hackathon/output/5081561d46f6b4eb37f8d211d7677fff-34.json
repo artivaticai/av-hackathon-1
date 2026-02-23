@@ -1,7 +1,7 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": null,
-  "bill_date": null,
+  "bill_date": "2021-01-26",
   "hospital": {
     "name": "GdsH     CU",
     "address": "Inside Gayatri Nursing Home, Delhi Mathura                                    mcomplete REET awh Aol - i, Road, Rasulpur Chowk! Palwal 121102 (HR)",
@@ -10,7 +10,7 @@
     "gstin": null
   },
   "patient": {
-    "name": "Cc",
+    "name": null,
     "age": null,
     "dob": null,
     "gender": null,
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Diagnostic Bills\\5081561d46f6b4eb37f8d211d7677fff-34.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Diagnostic Bills\\5081561d46f6b4eb37f8d211d7677fff-34.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.5,
-    "extracted_at": "2026-02-21T13:42:41.227558",
+    "processing_time_s": 2.04,
+    "extracted_at": "2026-02-23T15:34:28.391549",
     "raw_text_chars": 4174,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

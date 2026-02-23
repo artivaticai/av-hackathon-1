@@ -3,14 +3,14 @@
   "bill_number": null,
   "bill_date": "2025-06-10",
   "hospital": {
-    "name": "6/10/25, 10:50 AM                                                                         OPD/IPD Bill Receipt",
+    "name": "Ros —                        VCare Hospital                         Mobile No.",
     "address": "~ Lert Bett                      Plot no. 4, Raksha Enclave, VIP Road, Zirakpur, Distt. Mohali (PB.)",
     "phone": null,
     "email": null,
     "gstin": null
   },
   "patient": {
-    "name": "Bill Date",
+    "name": "Liza Gupta",
     "age": null,
     "dob": null,
     "gender": null,
@@ -48,30 +48,34 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 300.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
   "line_items": [
     {
       "description": "1     OPD Consultation Charges                              300.00 1",
       "category": "Consultation",
       "quantity": 300.0,
+      "unit_rate": null,
       "amount": 300.0
+    },
+    {
+      "description": "Debit/Credit Card Pay:                                 -",
+      "category": "Other",
+      "amount": 135.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\IPD Bills\\2025062000216.PP1_d5aa3d7b-a81c-4c85-9cee-bc42ee3cc925.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\IPD Bills\\2025062000216.PP1_d5aa3d7b-a81c-4c85-9cee-bc42ee3cc925.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.8,
-    "extracted_at": "2026-02-21T13:43:25.689080",
+    "processing_time_s": 1.6,
+    "extracted_at": "2026-02-23T15:35:05.220292",
     "raw_text_chars": 1959,
-    "line_items_found": 1
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

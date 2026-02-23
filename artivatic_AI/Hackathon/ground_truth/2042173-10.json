@@ -1,0 +1,305 @@
+{
+  "bill_type": "Hospital Bill",
+  "bill_number": null,
+  "bill_date": "28/09/2018",
+  "hospital": {
+    "name": "Neotia Getwel Healthcare Centre",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "gstin": null
+  },
+  "patient": {
+    "name": null,
+    "age": null,
+    "dob": null,
+    "gender": null,
+    "uhid": null
+  },
+  "admission": {
+    "admission_date": null,
+    "discharge_date": null,
+    "ward": null,
+    "bed_number": null,
+    "ipd_number": null,
+    "opd_number": null,
+    "los_days": null
+  },
+  "clinical": {
+    "diagnosis": [],
+    "attending_doctor": null,
+    "department": "DRUGGROUP"
+  },
+  "insurance": {
+    "tpa_name": null,
+    "insurance_company": null,
+    "policy_number": null,
+    "cashless": false
+  },
+  "prepared_by": {
+    "name": "BIPIN MISHRA",
+    "emp_id": "EMP5427"
+  },
+  "page_info": {
+    "page": 6,
+    "total_pages": 25
+  },
+  "charges_summary": {
+    "room_charges": null,
+    "doctor_charges": null,
+    "pharmacy_charges": null,
+    "lab_charges": null,
+    "ot_charges": null,
+    "nursing_charges": null,
+    "subtotal": null,
+    "discount": null,
+    "cgst": null,
+    "sgst": null,
+    "igst": null,
+    "gross_total": null,
+    "advance_paid": null,
+    "tpa_deduction": null,
+    "balance_due": null,
+    "amount_in_words": null
+  },
+  "line_items": [
+    {
+      "description": "DISCARDIT SYRINGE 20ML ,SOLID,",
+      "batch_no": "1804502",
+      "expiry_date": "01-03-2023",
+      "category": "Pharmacy",
+      "unit_rate": 31.50,
+      "quantity": 1,
+      "total_rs": 31.50,
+      "amount_rs": 31.50,
+      "total_amount_rs": null
+    },
+    {
+      "description": "RYLES TUBE (ROMOLENE) NO 14 ,SOLID,NO 14",
+      "batch_no": "G18052530",
+      "expiry_date": "01-04-2023",
+      "category": "Consumable",
+      "unit_rate": 52.00,
+      "quantity": 2,
+      "total_rs": 104.00,
+      "amount_rs": 104.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "REMAC CD3 TAB 10S ,SOLID,",
+      "batch_no": "SC18073",
+      "expiry_date": "01-08-2019",
+      "category": "Pharmacy",
+      "unit_rate": 20.50,
+      "quantity": 40,
+      "total_rs": 820.00,
+      "amount_rs": 820.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "PYRIGESIC TAB 10S ,SOLID,",
+      "batch_no": "DF8029",
+      "expiry_date": "01-01-2021",
+      "category": "Pharmacy",
+      "unit_rate": 0.92,
+      "quantity": 10,
+      "total_rs": 9.18,
+      "amount_rs": 9.18,
+      "total_amount_rs": null
+    },
+    {
+      "description": "POTASSIUM CHLORIDE INJ 10ML ,Liquid,10ML",
+      "batch_no": "5101",
+      "expiry_date": "01-01-2021",
+      "category": "Pharmacy",
+      "unit_rate": 24.60,
+      "quantity": 7,
+      "total_rs": 172.20,
+      "amount_rs": 172.20,
+      "total_amount_rs": null
+    },
+    {
+      "description": "CORDARONE 100MG TAB 10S ,SOLID,",
+      "batch_no": "8NA0005",
+      "expiry_date": "01-02-2021",
+      "category": "Pharmacy",
+      "unit_rate": 5.80,
+      "quantity": 10,
+      "total_rs": 58.00,
+      "amount_rs": 58.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "CORDARONE 100MG TAB 10S",
+      "batch_no": "8NA0006",
+      "expiry_date": "01-02-2021",
+      "category": "Pharmacy",
+      "unit_rate": 5.80,
+      "quantity": 10,
+      "total_rs": 58.00,
+      "amount_rs": 58.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "CLINDATEC 600MG INJ ,Liquid,600MG",
+      "batch_no": "CLIF7B4",
+      "expiry_date": "01-05-2019",
+      "category": "Pharmacy",
+      "unit_rate": 191.00,
+      "quantity": 3,
+      "total_rs": 573.00,
+      "amount_rs": 573.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "PM LINE 200CM ROMSON ,SOLID,200CM",
+      "batch_no": "G18072579",
+      "expiry_date": "01-06-2023",
+      "category": "Consumable",
+      "unit_rate": 244.00,
+      "quantity": 2,
+      "total_rs": 488.00,
+      "amount_rs": 488.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "PM LINE 150CM VYGON ,SOLID,150CM",
+      "batch_no": "060717EK",
+      "expiry_date": "01-07-2022",
+      "category": "Consumable",
+      "unit_rate": 211.00,
+      "quantity": 1,
+      "total_rs": 211.00,
+      "amount_rs": 211.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "CALPOL 650MG TAB 15S ,SOLID,650MG",
+      "batch_no": "EQ583",
+      "expiry_date": "01-06-2021",
+      "category": "Pharmacy",
+      "unit_rate": 1.93,
+      "quantity": 15,
+      "total_rs": 29.02,
+      "amount_rs": 29.02,
+      "total_amount_rs": null
+    },
+    {
+      "description": "BREATHING CIRCUIT (ADULT) ,SOLID,ADULT",
+      "batch_no": "170703",
+      "expiry_date": "01-07-2020",
+      "category": "Consumable",
+      "unit_rate": 480.08,
+      "quantity": 1,
+      "total_rs": 480.08,
+      "amount_rs": 480.08,
+      "total_amount_rs": null
+    },
+    {
+      "description": "ARROPAN 40 TAB 10S ,SOLID,40MG",
+      "batch_no": "1215801T",
+      "expiry_date": "01-04-2020",
+      "category": "Pharmacy",
+      "unit_rate": 7.20,
+      "quantity": 21,
+      "total_rs": 151.20,
+      "amount_rs": 151.20,
+      "total_amount_rs": null
+    },
+    {
+      "description": "NON STERILE GLOVES NO 6.5 - SURGICARE ,SOLID,NO 6.5",
+      "batch_no": "18F1003",
+      "expiry_date": "01-05-2023",
+      "category": "Consumable",
+      "unit_rate": 26.00,
+      "quantity": 6,
+      "total_rs": 156.00,
+      "amount_rs": 156.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "NEEDLE 18G ,SOLID,",
+      "batch_no": "20811D",
+      "expiry_date": "01-04-2023",
+      "category": "Consumable",
+      "unit_rate": 2.50,
+      "quantity": 39,
+      "total_rs": 97.50,
+      "amount_rs": 97.50,
+      "total_amount_rs": null
+    },
+    {
+      "description": "NANZILON HANDDRUB 100ML ,Liquid,100ML",
+      "batch_no": "NRL-466",
+      "expiry_date": "01-06-2021",
+      "category": "Pharmacy",
+      "unit_rate": 205.00,
+      "quantity": 1,
+      "total_rs": 205.00,
+      "amount_rs": 205.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "N S 100ML AMANTA ,Liquid,100ML",
+      "batch_no": "40680488",
+      "expiry_date": "01-07-2021",
+      "category": "Pharmacy",
+      "unit_rate": 35.52,
+      "quantity": 42,
+      "total_rs": 1491.84,
+      "amount_rs": 1491.84,
+      "total_amount_rs": null
+    },
+    {
+      "description": "ANAWIN 0.25% INJ",
+      "batch_no": "UN163093",
+      "expiry_date": "01-02-2020",
+      "category": "Pharmacy",
+      "unit_rate": 49.50,
+      "quantity": 1,
+      "total_rs": 49.50,
+      "amount_rs": 49.50,
+      "total_amount_rs": null
+    },
+    {
+      "description": "ALDACTONE 25MG TAB 15S ,SOLID,25MG",
+      "batch_no": "02A17012R",
+      "expiry_date": "01-02-2020",
+      "category": "Pharmacy",
+      "unit_rate": 1.93,
+      "quantity": 30,
+      "total_rs": 58.00,
+      "amount_rs": 58.00,
+      "total_amount_rs": null
+    },
+    {
+      "description": "N S 1000ML",
+      "batch_no": "1181181",
+      "expiry_date": "01-01-2021",
+      "category": "Pharmacy",
+      "unit_rate": 47.58,
+      "quantity": 3,
+      "total_rs": 142.74,
+      "amount_rs": 142.74,
+      "total_amount_rs": null
+    },
+    {
+      "description": "MUCUS EXTRACTOR ,SOLID,",
+      "batch_no": "18042238",
+      "expiry_date": "01-03-2023",
+      "category": "Consumable",
+      "unit_rate": 60.00,
+      "quantity": 1,
+      "total_rs": 60.00,
+      "amount_rs": 60.00,
+      "total_amount_rs": null
+    }
+  ],
+  "payments": [],
+  "_meta": {
+    "source_file": "2042173-10.jpg",
+    "page": "6 of 25",
+    "prepared_on": "28/09/2018 18:01",
+    "generated_on": "28/09/2018 18:01"
+  }
+}

@@ -3,7 +3,7 @@
   "bill_number": null,
   "bill_date": "2025-09-25",
   "hospital": {
-    "name": "manipalhospitals                Wr",
+    "name": "MANIPAL Hospital BHUBANESWAR",
     "address": "MANIPAL Hospital BHUBANESWAR, Plot No.1, Besides Satyasai Enclave, Khandagiri, Bhubaneswat, 751030 P; 491 6746666600",
     "phone": null,
     "email": null,
@@ -48,30 +48,27 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 63071.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from section totals"
-    ]
+    "amount_in_words": null
   },
   "line_items": [
     {
-      "description": "IFFCO TOKIO GENERAL INS URANCE COMPANY (section total)",
+      "description": "IFFCO TOKIO GENERAL INS URANCE COMPANY",
       "category": "Other",
-      "amount": 63071.0,
-      "is_section_total": true
+      "amount": 63071.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Interim Bills\\image (new).JPG",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Interim Bills\\image (new).JPG",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.22,
-    "extracted_at": "2026-02-21T13:43:19.219807",
+    "processing_time_s": 0.94,
+    "extracted_at": "2026-02-23T15:34:59.372103",
     "raw_text_chars": 1504,
-    "line_items_found": 1
+    "line_items_found": 1,
+    "extractor_version": "v10"
   }
 }

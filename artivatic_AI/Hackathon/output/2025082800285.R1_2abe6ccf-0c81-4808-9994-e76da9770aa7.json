@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Hospital Bills\\2025082800285.R1_2abe6ccf-0c81-4808-9994-e76da9770aa7.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Hospital Bills\\2025082800285.R1_2abe6ccf-0c81-4808-9994-e76da9770aa7.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.35,
-    "extracted_at": "2026-02-21T13:43:16.462718",
+    "processing_time_s": 1.19,
+    "extracted_at": "2026-02-23T15:34:57.102155",
     "raw_text_chars": 969,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

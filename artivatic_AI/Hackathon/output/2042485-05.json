@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "PHARMACY"
   },
   "insurance": {
     "tpa_name": null,
@@ -39,7 +39,7 @@
   "charges_summary": {
     "room_charges": null,
     "doctor_charges": null,
-    "pharmacy_charges": null,
+    "pharmacy_charges": 18.0,
     "lab_charges": null,
     "ot_charges": null,
     "nursing_charges": null,
@@ -48,149 +48,25 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 3001.8,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
-  "line_items": [
-    {
-      "description": "PHARMACY",
-      "category": "Pharmacy",
-      "quantity": 18.0,
-      "amount": 12.06,
-      "exc_amount": 225.0
-    },
-    {
-      "description": "GLAND                         9",
-      "category": "Other",
-      "quantity": 2.0,
-      "amount": 0.3,
-      "exc_amount": 5.65
-    },
-    {
-      "description": "GLAND                         9",
-      "category": "Other",
-      "quantity": 3.0,
-      "amount": 303.98,
-      "exc_amount": 340.02
-    },
-    {
-      "description": "ABBOTT",
-      "category": "Other",
-      "quantity": 4.0,
-      "amount": 49.48,
-      "exc_amount": 923.44
-    },
-    {
-      "description": "AZOBACTAM)",
-      "category": "Other",
-      "amount": 6.0,
-      "exc_amount": 6.0
-    },
-    {
-      "description": "AZOBACTAM)",
-      "category": "Other",
-      "amount": 1.91,
-      "exc_amount": 35.52
-    },
-    {
-      "description": "CHLORIDE)",
-      "category": "Other",
-      "amount": 25.0,
-      "exc_amount": 6.0
-    },
-    {
-      "description": "EUROFLEX",
-      "category": "Other",
-      "quantity": 9.0,
-      "amount": 3.98,
-      "exc_amount": 74.25
-    },
-    {
-      "description": "CHLORIDE)",
-      "category": "Other",
-      "amount": 6.0,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "EUROFLEX",
-      "category": "Other",
-      "quantity": 10.0,
-      "amount": 6.0,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "CHLORIDE)",
-      "category": "Other",
-      "amount": 1.0,
-      "exc_amount": 78.0
-    },
-    {
-      "description": "DENIS:",
-      "category": "Other",
-      "quantity": 12.0,
-      "amount": 1.0,
-      "exc_amount": 78.0
-    },
-    {
-      "description": "E) SAMARTH                       0",
-      "category": "Other",
-      "quantity": 13.0,
-      "amount": 5.61,
-      "exc_amount": 104.76
-    },
-    {
-      "description": "REDDYS",
-      "category": "Other",
-      "quantity": 14.0,
-      "amount": 3.0,
-      "exc_amount": 45.6
-    },
-    {
-      "description": "BROMIDE+SALBU",
-      "category": "Other",
-      "amount": 6.0,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "FEXOFENADINE)              0",
-      "category": "Other",
-      "amount": 26.0,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "GLAND                         9",
-      "category": "Other",
-      "quantity": 2.0,
-      "amount": 49.48,
-      "exc_amount": 923.56
-    },
-    {
-      "description": "AZOBACTAM)",
-      "category": "Other",
-      "amount": 6.0,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "VERITAZ",
-      "category": "Other",
-      "quantity": 3.0,
-      "amount": 6.0,
-      "exc_amount": 26.0
-    }
-  ],
+  "line_items": [],
   "payments": [],
+  "page_info": {
+    "page": 2,
+    "total_pages": 6
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Detailed hospital bill\\2042485-05.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Detailed hospital bill\\2042485-05.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.27,
-    "extracted_at": "2026-02-21T13:42:34.301408",
+    "processing_time_s": 2.24,
+    "extracted_at": "2026-02-23T15:34:22.529780",
     "raw_text_chars": 12224,
-    "line_items_found": 19
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

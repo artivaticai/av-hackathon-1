@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "LABORATORY"
   },
   "insurance": {
     "tpa_name": null,
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Diagnostic Bills\\dd9386b1baaa9faa036f9ba8c2ae8474-14.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Diagnostic Bills\\dd9386b1baaa9faa036f9ba8c2ae8474-14.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.98,
-    "extracted_at": "2026-02-21T13:42:43.204867",
+    "processing_time_s": 1.48,
+    "extracted_at": "2026-02-23T15:34:29.878420",
     "raw_text_chars": 3180,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

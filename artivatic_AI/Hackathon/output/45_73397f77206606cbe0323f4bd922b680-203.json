@@ -54,7 +54,15 @@
     "balance_due": 25.0,
     "amount_in_words": null
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": ".                          :",
+      "category": "Other",
+      "quantity": 0.0,
+      "unit_rate": null,
+      "amount": 25.0
+    }
+  ],
   "payments": [
     {
       "mode": "Cash",
@@ -62,11 +70,12 @@
     }
   ],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\OPD Bills\\45_73397f77206606cbe0323f4bd922b680-203.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\OPD Bills\\45_73397f77206606cbe0323f4bd922b680-203.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.23,
-    "extracted_at": "2026-02-21T13:43:35.310690",
+    "processing_time_s": 1.14,
+    "extracted_at": "2026-02-23T15:35:13.693513",
     "raw_text_chars": 2145,
-    "line_items_found": 0
+    "line_items_found": 1,
+    "extractor_version": "v10"
   }
 }

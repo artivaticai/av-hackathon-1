@@ -10,7 +10,7 @@
     "gstin": null
   },
   "patient": {
-    "name": null,
+    "name": "Payment Details\no",
     "age": null,
     "dob": null,
     "gender": null,
@@ -56,12 +56,17 @@
   },
   "line_items": [],
   "payments": [],
+  "page_info": {
+    "page": 1,
+    "total_pages": 2
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\OPD Bills\\33_587ce83a64e7ae43d47cfb3ae55d40d2-41.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\OPD Bills\\33_587ce83a64e7ae43d47cfb3ae55d40d2-41.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.54,
-    "extracted_at": "2026-02-21T13:43:32.873738",
+    "processing_time_s": 1.22,
+    "extracted_at": "2026-02-23T15:35:11.600966",
     "raw_text_chars": 2917,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

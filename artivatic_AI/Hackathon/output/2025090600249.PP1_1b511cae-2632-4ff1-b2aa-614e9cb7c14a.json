@@ -13,7 +13,7 @@
     "name": null,
     "age": null,
     "dob": null,
-    "gender": null,
+    "gender": "Female",
     "uhid": "5639/82025"
   },
   "admission": {
@@ -56,12 +56,17 @@
   },
   "line_items": [],
   "payments": [],
+  "page_info": {
+    "page": 1,
+    "total_pages": 1
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\IPD Bills\\2025090600249.PP1_1b511cae-2632-4ff1-b2aa-614e9cb7c14a.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\IPD Bills\\2025090600249.PP1_1b511cae-2632-4ff1-b2aa-614e9cb7c14a.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.02,
-    "extracted_at": "2026-02-21T13:43:26.717831",
+    "processing_time_s": 0.9,
+    "extracted_at": "2026-02-23T15:35:06.128012",
     "raw_text_chars": 1640,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

@@ -3,8 +3,8 @@
   "bill_number": null,
   "bill_date": null,
   "hospital": {
-    "name": "COU: - Gmmmnininsi",
-    "address": "‘Near Varadhi {Neat Vijsyrwads), Tacepall, Guntur Diet + 522S0$ Ph: 66445-460966     bed, Agel Sex     aap                              SWhatient No: 1021000143376",
+    "name": "Manipal Hospital",
+    "address": "‘Near Varadhi {Neat Vijsyrwads), Tacepall, Guntur Diet + 52250$ Ph: 66445-460966     bed, Agel Sex     aap                              SWhatient No: 1021000143376",
     "phone": "66445-460966",
     "email": null,
     "gstin": null
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": "Dr. RAVRANTS VUPPU",
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,37 +48,64 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 980.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
   "line_items": [
+    {
+      "description": "PBEDCZ00 BED CHARGES - STANDARD, LaNWSTDAAS IT",
+      "category": "Service Charges",
+      "quantity": 5.0,
+      "unit_rate": 180000.0,
+      "amount": 780009.0
+    },
+    {
+      "description": "[PREOC322] HURSING CHARGES - STANDARD",
+      "category": "Other",
+      "quantity": 6.0,
+      "unit_rate": 200.0,
+      "amount": 1000.0
+    },
+    {
+      "description": "IPADIII0| Reaert Mdecical Doctor Fee.",
+      "category": "Consultation",
+      "quantity": 6.0,
+      "unit_rate": 1.2,
+      "amount": 20080.0
+    },
+    {
+      "description": "[AMEDO8E] CAUTERY MACHINE - CHARGES.",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 30080.0,
+      "amount": 300.0
+    },
+    {
+      "description": "{AMEDIIT] mtason Scope",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 20.09,
+      "amount": 2010.0
+    },
     {
       "description": "JAMED 168] Basic Monsor (Eogehibps Spo2y2¢ Hours:",
       "category": "Other",
       "quantity": 1.0,
-      "amount": 100.0,
-      "exc_amount": 700.0
-    },
-    {
-      "description": "SRINIVAS RAO T)",
-      "category": "Other",
-      "amount": 10450.0,
-      "exc_amount": 280.0
+      "unit_rate": 100.0,
+      "amount": 700.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Interim Bills\\int-1.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Interim Bills\\int-1.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.53,
-    "extracted_at": "2026-02-21T13:43:22.362580",
+    "processing_time_s": 1.31,
+    "extracted_at": "2026-02-23T15:35:02.224893",
     "raw_text_chars": 3317,
-    "line_items_found": 2
+    "line_items_found": 6,
+    "extractor_version": "v10"
   }
 }

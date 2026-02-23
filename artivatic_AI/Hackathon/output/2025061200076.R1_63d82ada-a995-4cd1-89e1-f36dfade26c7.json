@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -54,14 +54,41 @@
     "balance_due": null,
     "amount_in_words": "t                 pe\nSubject to Delhi Jurisdiction only"
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "Stale Code",
+      "category": "Other",
+      "amount": 107.0
+    },
+    {
+      "description": "U                    CS$D.",
+      "category": "Other",
+      "amount": 400.0
+    },
+    {
+      "description": "2                 . CHEMOTHERAPY",
+      "category": "Other",
+      "amount": 300.0
+    },
+    {
+      "description": "4                      CHEMOTHERAPY Ward BED/ROOM CHARGES",
+      "category": "Service Charges",
+      "amount": 2900.0
+    },
+    {
+      "description": "5                    Pharmacy",
+      "category": "Pharmacy",
+      "amount": 13895.77
+    }
+  ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Summary Bills\\2025061200076.R1_63d82ada-a995-4cd1-89e1-f36dfade26c7.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Summary Bills\\2025061200076.R1_63d82ada-a995-4cd1-89e1-f36dfade26c7.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.39,
-    "extracted_at": "2026-02-21T13:43:46.669738",
+    "processing_time_s": 1.4,
+    "extracted_at": "2026-02-23T15:35:23.598409",
     "raw_text_chars": 6231,
-    "line_items_found": 0
+    "line_items_found": 5,
+    "extractor_version": "v10"
   }
 }

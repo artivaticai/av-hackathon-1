@@ -3,14 +3,14 @@
   "bill_number": "2939",
   "bill_date": "2025-06-10",
   "hospital": {
-    "name": "6/40/25, 10:50 AM                                                                         OPD/IPD Bill Receipt",
+    "name": "VCare Hospital                               VCare  Hospital                               9988836080",
     "address": "VCare Hospital                               VCare  Hospital                               9988836080, -   “tort a te                       Plot no. 4, Raksha Enclave, VIP Road, Zirakpur, Distt. Mohall (PB.)",
     "phone": "(0268) 2549091-92-93",
     "email": null,
     "gstin": null
   },
   "patient": {
-    "name": "Bill Date",
+    "name": "Liza Gupta",
     "age": null,
     "dob": null,
     "gender": "Male",
@@ -19,7 +19,7 @@
   "admission": {
     "admission_date": null,
     "discharge_date": "2018-40-12",
-    "ward": null,
+    "ward": "Semi - Private",
     "bed_number": "1111",
     "ipd_number": "Bill",
     "opd_number": "/IPD",
@@ -48,149 +48,394 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 8299.59,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": "Rupees Four Hundred Only",
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": "Rupees Four Hundred Only"
   },
   "line_items": [
     {
       "description": "1     OPD Consultation Charges                              300.00 1",
       "category": "Consultation",
       "quantity": 300.0,
+      "unit_rate": null,
       "amount": 300.0
     },
     {
       "description": "12-Oct-18                       ECG (ECG-1)",
       "category": "Other",
       "quantity": 350.0,
-      "amount": 1.0,
-      "exc_amount": 350.0
+      "unit_rate": 1.0,
+      "amount": 350.0
+    },
+    {
+      "description": "11-Oct-18                      BLOOD SUGAR BY GLUCOMETER",
+      "category": "Other",
+      "quantity": 80.0,
+      "unit_rate": 1.0,
+      "amount": 8000.0
     },
     {
       "description": "13-Oct-19                         PHYSIOTHERAPY EXERCISE (PHY-4)",
       "category": "Service Charges",
       "quantity": 200.0,
-      "amount": 1.0,
-      "exc_amount": 200.0
+      "unit_rate": 1.0,
+      "amount": 200.0
+    },
+    {
+      "description": "14-Oct-18                           PHYSIOTHERAPY EXERCISE",
+      "category": "Service Charges",
+      "quantity": 200.0,
+      "unit_rate": 100.0,
+      "amount": 200.0
     },
     {
       "description": "15-Oct-18                      PHYSIOTHERAPY EXERCISE",
       "category": "Service Charges",
       "quantity": 200.0,
-      "amount": 2.0,
-      "exc_amount": 200.0
+      "unit_rate": 2.0,
+      "amount": 200.0
     },
     {
       "description": "12-Oct-18                        DOLO 500MG TAB 155 (TAB)",
       "category": "Pharmacy",
       "quantity": 95.0,
-      "amount": 5.0,
-      "exc_amount": 4.76
+      "unit_rate": 4.76,
+      "amount": 5.0
     },
     {
       "description": "12-Oct-18                         R 20 INJ 15 - EVANS HEALTHCARE (IN)",
       "category": "Pharmacy",
       "quantity": 190.0,
-      "amount": 3.0,
-      "exc_amount": 450.0
+      "unit_rate": 3.0,
+      "amount": 450.0
+    },
+    {
+      "description": "12-Oct-18                     LV.SET (FLOVI) LV.INFUSION (MCN)",
+      "category": "Pharmacy",
+      "quantity": 231.0,
+      "unit_rate": 100.0,
+      "amount": 231.0
     },
     {
       "description": "12-Oct-18                          NEEDLE DISPOSABLE 16 G (MCN)",
-      "category": "Pharmacy",
+      "category": "Consumable",
       "quantity": 3.5,
-      "amount": 3.0,
-      "exc_amount": 10.5
+      "unit_rate": 3.0,
+      "amount": 10.5
+    },
+    {
+      "description": "12-Oct-18                      TICOZAC 400MG IN} 15 (INI)",
+      "category": "Other",
+      "quantity": 2080.0,
+      "unit_rate": 2.0,
+      "amount": 416000.0
+    },
+    {
+      "description": "12-Oct-18                       5 ML SYRINGE - (MCN)",
+      "category": "Pharmacy",
+      "quantity": 23.0,
+      "unit_rate": 5.0,
+      "amount": 11500.0
+    },
+    {
+      "description": "12-Oct-19                        VIGGO 3 WAY MULTI EXTENSION SET (MCN)",
+      "category": "Other",
+      "quantity": 590.0,
+      "unit_rate": 100.0,
+      "amount": 590.0
     },
     {
       "description": "12-Oct-18                      N.S.500ML (VIAFLEX)",
       "category": "Other",
       "quantity": 74.79,
-      "amount": 3.0,
-      "exc_amount": 215.37
+      "unit_rate": 3.0,
+      "amount": 215.37
     },
     {
       "description": "12-Oct-18                           NEEDLE DISPOSABLE 26 G (MCN)",
-      "category": "Pharmacy",
+      "category": "Consumable",
       "quantity": 2.5,
-      "amount": 3.0,
-      "exc_amount": 7.5
+      "unit_rate": 3.0,
+      "amount": 7.5
     },
     {
       "description": "12-Oct-18                           ONDET (INTAS) 2ML (IN)",
       "category": "Other",
       "quantity": 12.29,
-      "amount": 3.0,
-      "exc_amount": 36.87
+      "unit_rate": 3.0,
+      "amount": 36.87
+    },
+    {
+      "description": "12-Oct-18                         10 ML SYRINGE ~ (MCN)",
+      "category": "Pharmacy",
+      "quantity": 35.0,
+      "unit_rate": 5.0,
+      "amount": 17500.0
     },
     {
       "description": "12-Oct-18                        ECG ELECTROD (AMBU) (MCN)",
       "category": "Other",
       "quantity": 22.5,
-      "amount": 5.0,
-      "exc_amount": 112.5
+      "unit_rate": 5.0,
+      "amount": 112.5
     },
     {
       "description": "12-Oct-18                          3 ML SYRINGE - (MCN)",
       "category": "Pharmacy",
       "quantity": 19.0,
-      "amount": 3.0,
-      "exc_amount": 57.0
+      "unit_rate": 3.0,
+      "amount": 57.0
     },
     {
       "description": "12-Oct-18          SAFZID T 562.5MG ING 15 (IN)",
       "category": "Other",
       "quantity": 519.0,
-      "amount": 4.0,
-      "exc_amount": 2076.0
+      "unit_rate": 4.0,
+      "amount": 2076.0
+    },
+    {
+      "description": "12-O¢t-18                 PRATOZOLE 40MG IN) - (INI)",
+      "category": "Pharmacy",
+      "quantity": 45.2,
+      "unit_rate": 1.0,
+      "amount": 4520.0
     },
     {
       "description": "12-Oct-18                       LV.SET (FLOVI) LV.INFUSION (MCN)",
       "category": "Pharmacy",
       "quantity": 231.0,
-      "amount": 1.0,
-      "exc_amount": 231.0
+      "unit_rate": 1.0,
+      "amount": 231.0
+    },
+    {
+      "description": "12-Oct-18                         ISOLYTE M SOOML (IV F}",
+      "category": "Pharmacy",
+      "quantity": 118.59,
+      "unit_rate": 300.0,
+      "amount": 355.77
     },
     {
       "description": "12-Oct-18                      R 20 INJ 1S - EVANS HEALTHCARE (1NJ)",
       "category": "Pharmacy",
       "quantity": 150.0,
-      "amount": 3.0,
-      "exc_amount": 450.0
+      "unit_rate": 3.0,
+      "amount": 450.0
     },
     {
       "description": "12-Oct-18                      20 ML SYRINGE - (MCN)",
       "category": "Pharmacy",
       "quantity": 35.0,
-      "amount": 2.0,
-      "exc_amount": 70.09
+      "unit_rate": 2.0,
+      "amount": 70.09
     },
     {
       "description": "12-Oct-18                      TAMSUNATE 60MG INJ (INJ)",
       "category": "Pharmacy",
       "quantity": 207.0,
-      "amount": 2.0,
-      "exc_amount": 414.0
+      "unit_rate": 2.0,
+      "amount": 414.0
     },
     {
       "description": "12-Oct-18                         SAFZIO T 562,5MG ING 15 (IND)",
       "category": "Other",
       "quantity": 519.0,
-      "amount": 6.0,
-      "exc_amount": 3114.0
+      "unit_rate": 6.0,
+      "amount": 3114.0
+    },
+    {
+      "description": "(24/09/2025, 06:21PM)                         id",
+      "category": "Other",
+      "quantity": 16.33,
+      "unit_rate": 163.28,
+      "amount": 163.28
+    },
+    {
+      "description": "(24/09/2025, 06:21PM)                      15",
+      "category": "Other",
+      "quantity": 19.96,
+      "unit_rate": 299.41,
+      "amount": 29941.0
+    },
+    {
+      "description": "(22/09/2025, 03:52PM)                         L",
+      "category": "Other",
+      "quantity": 68.0,
+      "unit_rate": 68.0,
+      "amount": 68.0
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                         1",
+      "category": "Other",
+      "quantity": 249.0,
+      "unit_rate": 249.0,
+      "amount": 249.0
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                         L",
+      "category": "Other",
+      "quantity": 252.19,
+      "unit_rate": 252.19,
+      "amount": 252.19
+    },
+    {
+      "description": "(22/09/2025, 05:52PM)                         1",
+      "category": "Other",
+      "quantity": 288.39,
+      "unit_rate": 288.39,
+      "amount": 288.39
+    },
+    {
+      "description": "(22/09/2025, 03:52PM)                         L",
+      "category": "Other",
+      "quantity": 264.0,
+      "unit_rate": 264.0,
+      "amount": 264.0
+    },
+    {
+      "description": "(22/09/2025, 03:52PM)                         L",
+      "category": "Other",
+      "quantity": 235.0,
+      "unit_rate": 235.0,
+      "amount": 235.0
+    },
+    {
+      "description": "(22/09/2025, 08:22PM)                        L",
+      "category": "Other",
+      "quantity": 3141.0,
+      "unit_rate": 41.41,
+      "amount": 3141.0
+    },
+    {
+      "description": "(23/09/2025, 02:53.4M)                      1",
+      "category": "Other",
+      "quantity": 3141.0,
+      "unit_rate": 31.41,
+      "amount": 31.41
+    },
+    {
+      "description": "(23/09/2025, 02:53AM)                         3",
+      "category": "Other",
+      "quantity": 13.41,
+      "unit_rate": 40.23,
+      "amount": 40.23
+    },
+    {
+      "description": "(23/09/2025, 12:12PM)                        L",
+      "category": "Other",
+      "quantity": 3141.0,
+      "unit_rate": 41.41,
+      "amount": 3141.0
+    },
+    {
+      "description": "VCare Hospital                               VCare  Hospital",
+      "category": "Other",
+      "amount": 9988836080.0
+    },
+    {
+      "description": "Sepl9 Sepl19 RO/284023 Complete Bleod Count (CBC)",
+      "category": "Lab / Diagnostics",
+      "amount": 860.0
+    },
+    {
+      "description": "Sepl9 Sepl9 RO/284024 SMA 124+2 (Non Fasting)",
+      "category": "Other",
+      "amount": 6800.0
+    },
+    {
+      "description": "Sepl19 Sepl19 RO/284024 Magnesium",
+      "category": "Other",
+      "amount": 1060.0
+    },
+    {
+      "description": "Sepl9 Sepl19 RO/284024 Potassium",
+      "category": "Other",
+      "amount": 600.0
+    },
+    {
+      "description": "Sepl19 Sep19 RO/284024 Sodium",
+      "category": "Other",
+      "amount": 700.0
+    },
+    {
+      "description": "Sep19 Sepl19 RO/284035 HCV Antibodies (ELISA)",
+      "category": "Lab / Diagnostics",
+      "amount": 4160.0
+    },
+    {
+      "description": "Sepl9 Sepl19 RO/Z84035 HBsAg (ELISA)",
+      "category": "Other",
+      "amount": 1560.0
+    },
+    {
+      "description": "Sepl9 Sepl9 RO/284033 HIV I & II (ELISA)",
+      "category": "Lab / Diagnostics",
+      "amount": 2300.0
+    },
+    {
+      "description": "Sepl9 Sepl19 RO/284023 Partial Thromboplastin Time (PTT)",
+      "category": "Other",
+      "amount": 980.0
+    },
+    {
+      "description": "Sep20 Sep20 RO/284767 Glyce HB/ HBAIC (HPLC)",
+      "category": "Other",
+      "amount": 1920.0
+    },
+    {
+      "description": "Sep20 Sep20 RO/285056 Erythrocyte Sedimentation Rate (ESR)",
+      "category": "Other",
+      "amount": 680.0
+    },
+    {
+      "description": "Sepl19 Sep19 RO/284185 X Ray Chest - PLA. View",
+      "category": "Radiology",
+      "amount": 1180.0
+    },
+    {
+      "description": "Sepl9 Sepl9 RQO/284538 MR Brain Spectroscapy",
+      "category": "Other",
+      "amount": 13910.0
+    },
+    {
+      "description": "Sep20 Sep20 RQ/286066 Extra CD - MRI",
+      "category": "Radiology",
+      "amount": 1460.0
+    },
+    {
+      "description": "Sep20 Sep20 RO/284538 Perusion MRI",
+      "category": "Radiology",
+      "amount": 21700.0
+    },
+    {
+      "description": "Sep20 Sep20 RO/284538 Diffusion Tensor Imaging",
+      "category": "Other",
+      "amount": 13910.0
+    },
+    {
+      "description": "Sepl19 Sepl19 RO/284507 Portable Electro Encephalogram (E.E.G)",
+      "category": "Other",
+      "amount": 4320.0
+    },
+    {
+      "description": "Sep19 Sep19 RO/284584 Perimetry - Procedure Charge",
+      "category": "OT / Surgery",
+      "amount": 2880.0
     }
   ],
   "payments": [],
+  "page_info": {
+    "page": 2,
+    "total_pages": 6
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Testing data\\2025062000216.PP1_d5aa3d7b-a81c-4c85-9cee-bc42ee3cc925.pdf",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Testing data\\2025062000216.PP1_d5aa3d7b-a81c-4c85-9cee-bc42ee3cc925.pdf",
     "ocr_engine": "tesseract",
-    "processing_time_s": 30.81,
-    "extracted_at": "2026-02-21T13:44:22.233404",
-    "raw_text_chars": 26738,
-    "line_items_found": 18
+    "processing_time_s": 28.57,
+    "extracted_at": "2026-02-23T15:35:56.434559",
+    "raw_text_chars": 26558,
+    "line_items_found": 58,
+    "extractor_version": "v10"
   }
 }

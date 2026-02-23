@@ -4,7 +4,7 @@
   "bill_date": "2025-02-05",
   "hospital": {
     "name": "ee) ae         North East Health Care Private Limited                                                PAN No. :AADCN40361",
-    "address": "‘  HL        ee |             Golf Course Ext Rd, Sushant Lok Ii, Sector 56 Gurugram Haryana-                    GST No..: O6AADCN4036H1Z5, ae’ Marengo Asia = 122021                                            mn in  PORE",
+    "address": "‘  HL        ee |             Golf Course Ext Rd, Sushant Lok Ii, Sector 56 Gurugram Haryana-                    GST No..: O6AADCN4036H125, ae’ Marengo Asia = 122021                                            mn in  PORE",
     "phone": null,
     "email": "SGST@2.5",
     "gstin": null
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Laboratory"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,7 +48,7 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": null,
+    "gross_total": 79488.93,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": 8109.0,
@@ -66,11 +66,12 @@
     }
   ],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Hospital Bills\\2025020400155.R1_25e8a48f-7352-4a97-8fa5-7f5b909b5082.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Hospital Bills\\2025020400155.R1_25e8a48f-7352-4a97-8fa5-7f5b909b5082.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.67,
-    "extracted_at": "2026-02-21T13:43:12.644519",
+    "processing_time_s": 1.48,
+    "extracted_at": "2026-02-23T15:34:53.915912",
     "raw_text_chars": 6007,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

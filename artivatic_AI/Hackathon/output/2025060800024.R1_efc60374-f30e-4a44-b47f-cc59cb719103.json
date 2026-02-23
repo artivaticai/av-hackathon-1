@@ -54,14 +54,28 @@
     "balance_due": null,
     "amount_in_words": "Eighteen Thousand Five Hundred Twenty Six Only"
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "|s         oJun’2025 | Consultant Visit",
+      "category": "Consultation",
+      "quantity": 5.0,
+      "unit_rate": 600.04,
+      "amount": 3000.0
+    },
+    {
+      "description": "Payment Ret           :",
+      "category": "Other",
+      "amount": 48526.0
+    }
+  ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Summary Bills\\2025060800024.R1_efc60374-f30e-4a44-b47f-cc59cb719103.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Summary Bills\\2025060800024.R1_efc60374-f30e-4a44-b47f-cc59cb719103.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.49,
-    "extracted_at": "2026-02-21T13:43:45.280662",
+    "processing_time_s": 1.14,
+    "extracted_at": "2026-02-23T15:35:22.192408",
     "raw_text_chars": 4005,
-    "line_items_found": 0
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

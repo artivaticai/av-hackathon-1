@@ -1,7 +1,7 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": "02616",
-  "bill_date": null,
+  "bill_date": "2025-11-03",
   "hospital": {
     "name": "vo                   ¢  7)                                                 Sh, Hardeo Singh Memorial Hospital",
     "address": "ao                                         220,Bank Colony, Niwari Road, Modinagar-201204, .              SHSM                                                        Helpline: 7579612300, 7579761600",
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "OT"
   },
   "insurance": {
     "tpa_name": null,
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\IPD Bills\\2025110400096.PP1_d03857c9-6a49-4f96-8a3a-77a0fdf929ea.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\IPD Bills\\2025110400096.PP1_d03857c9-6a49-4f96-8a3a-77a0fdf929ea.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.35,
-    "extracted_at": "2026-02-21T13:43:28.074691",
+    "processing_time_s": 1.28,
+    "extracted_at": "2026-02-23T15:35:07.407705",
     "raw_text_chars": 1976,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

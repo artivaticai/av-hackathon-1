@@ -3,14 +3,14 @@
   "bill_number": "17913",
   "bill_date": "2025-02-05",
   "hospital": {
-    "name": ".     _ fF _          _ ap   y                               -  _",
+    "name": "COLUMBIA ASIA",
     "address": "Ness Veractil (Near Vyjayaieda}, Teen al Gumus Bhi. RRO. Ph CUECEGN, wee lee aan een eee nee nnn deere ned near ee ree cee sneer nen ee cewen MEUARE COMPAR ITED",
     "phone": "8898988894",
     "email": "CEST@2.5",
     "gstin": null
   },
   "patient": {
-    "name": "Co",
+    "name": "Banvice Roving",
     "age": null,
     "dob": null,
     "gender": "Female",
@@ -19,7 +19,7 @@
   "admission": {
     "admission_date": "2025-02-03",
     "discharge_date": "2018-40-12",
-    "ward": "S CONSULTA",
+    "ward": "ICU",
     "bed_number": null,
     "ipd_number": "Summary",
     "opd_number": "VISIT",
@@ -30,7 +30,7 @@
       "TKR      :"
     ],
     "attending_doctor": "Dr. Physician",
-    "department": "Total Amount       oO"
+    "department": "Laboratory"
   },
   "insurance": {
     "tpa_name": null,
@@ -58,16 +58,21 @@
   },
   "line_items": [
     {
-      "description": "ER             :",
+      "description": "L         Kriee Joint AP/Lat      .       7 +",
       "category": "Other",
-      "amount": 210000.0,
-      "exc_amount": 10000.0
+      "quantity": 550.0,
+      "unit_rate": 1.0,
+      "amount": 550.0
     },
     {
-      "description": "MEDICAL SUPPLIES",
+      "description": "PPS DIR ALAS CHARGES - STANDARD                      s          soba",
       "category": "Other",
-      "amount": 5.36,
-      "exc_amount": 100.4
+      "amount": 7090.09
+    },
+    {
+      "description": "1 ICU BED CHE GE                                                   7000",
+      "category": "Service Charges",
+      "amount": 7000.0
     }
   ],
   "payments": [
@@ -84,12 +89,17 @@
       "amount": 89.0
     }
   ],
+  "page_info": {
+    "page": 1,
+    "total_pages": 6
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Testing data\\int-1.pdf",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Testing data\\int-1.pdf",
     "ocr_engine": "tesseract",
-    "processing_time_s": 32.32,
-    "extracted_at": "2026-02-21T13:46:00.322275",
-    "raw_text_chars": 34393,
-    "line_items_found": 2
+    "processing_time_s": 30.33,
+    "extracted_at": "2026-02-23T15:37:27.299195",
+    "raw_text_chars": 34213,
+    "line_items_found": 3,
+    "extractor_version": "v10"
   }
 }

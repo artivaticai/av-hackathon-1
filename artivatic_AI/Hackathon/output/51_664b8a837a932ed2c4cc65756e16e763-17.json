@@ -48,7 +48,7 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 15000.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": 15000.0,
@@ -56,19 +56,19 @@
   },
   "line_items": [
     {
-      "description": "CATEGORY                              : GENERAL",
+      "description": "Received",
       "category": "Other",
-      "amount": 15000.0,
-      "exc_amount": 15000.0
+      "amount": 15000.0
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\OPD Bills\\51_664b8a837a932ed2c4cc65756e16e763-17.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\OPD Bills\\51_664b8a837a932ed2c4cc65756e16e763-17.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.52,
-    "extracted_at": "2026-02-21T13:43:36.836920",
+    "processing_time_s": 1.25,
+    "extracted_at": "2026-02-23T15:35:14.942290",
     "raw_text_chars": 2119,
-    "line_items_found": 1
+    "line_items_found": 1,
+    "extractor_version": "v10"
   }
 }

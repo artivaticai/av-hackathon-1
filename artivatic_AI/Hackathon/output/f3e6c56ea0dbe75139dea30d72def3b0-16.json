@@ -1,7 +1,7 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": null,
-  "bill_date": null,
+  "bill_date": "2021-04-12",
   "hospital": {
     "name": "yh)       STAR ZERAY & PATH LABORATORY",
     "address": "Add. Near Bijli Board, Tapukara (Distt. Alwar) Rajasthan, Mobile : 01493-400648, 9828409305",
@@ -10,7 +10,7 @@
     "gstin": null
   },
   "patient": {
-    "name": null,
+    "name": "DL\nSERUM",
     "age": 41,
     "dob": null,
     "gender": null,
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "LABORATORY"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,34 +48,21 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 42.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
-  "line_items": [
-    {
-      "description": "RLOOD UREA                 39                10 - 50 MG/DL",
-      "category": "Other",
-      "amount": 21.0
-    },
-    {
-      "description": "SERUM CREATININE             0.8                 0.2 - 1.2 MG/DL",
-      "category": "Lab / Diagnostics",
-      "amount": 21.0
-    }
-  ],
+  "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Diagnostic Bills\\f3e6c56ea0dbe75139dea30d72def3b0-16.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Diagnostic Bills\\f3e6c56ea0dbe75139dea30d72def3b0-16.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.74,
-    "extracted_at": "2026-02-21T13:42:49.017682",
+    "processing_time_s": 1.43,
+    "extracted_at": "2026-02-23T15:34:34.583819",
     "raw_text_chars": 915,
-    "line_items_found": 2
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

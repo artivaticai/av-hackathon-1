@@ -1,7 +1,7 @@
 {
   "bill_type": "Final Bill",
   "bill_number": "RNPO82600",
-  "bill_date": "2018-10-07",
+  "bill_date": null,
   "hospital": {
     "name": "| PHADNIS CLINIC PVT. LTD.              |  ‘Qn",
     "address": "“ , 4871-75, Ganeshkhind Road, Shivaji Nagar, Pune - 05 @ Tel,: +91-20-67216600 / 67216699                         ~~         ., foo            DETAILED FINAw 72225724                        O)   aa",
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "LABORATORY"
   },
   "insurance": {
     "tpa_name": null,
@@ -54,14 +54,34 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "| eo       ;    Minor Dressing in Ward, .",
+      "category": "Nursing",
+      "quantity": 350.0,
+      "unit_rate": 1.0,
+      "amount": 350.0
+    },
+    {
+      "description": "ro.             Knee Joint AP/Lat         .           ;",
+      "category": "Other",
+      "quantity": 550.0,
+      "unit_rate": 1.0,
+      "amount": 550.0
+    }
+  ],
   "payments": [],
+  "page_info": {
+    "page": 1,
+    "total_pages": 3
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Final Bills\\2090022-final bill-1 (1).jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Final Bills\\2090022-final bill-1 (1).jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.11,
-    "extracted_at": "2026-02-21T13:43:09.752138",
+    "processing_time_s": 2.1,
+    "extracted_at": "2026-02-23T15:34:51.313353",
     "raw_text_chars": 4441,
-    "line_items_found": 0
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

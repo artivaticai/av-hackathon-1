@@ -3,7 +3,7 @@
   "bill_number": null,
   "bill_date": "2018-10-10",
   "hospital": {
-    "name": "1 NEURO                                         (—]                                    1.00              480.00                                   480.00                                                                               480.00",
+    "name": "COLUMBIA ASIA",
     "address": null,
     "phone": null,
     "email": null,
@@ -54,34 +54,19 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [
-    {
-      "description": "Grand Total",
-      "category": "Other",
-      "quantity": 7750.23,
-      "amount": 1016.16,
-      "exc_amount": 78766.01
-    },
-    {
-      "description": "EXCERCISES IN",
-      "category": "Other",
-      "amount": 2.0,
-      "exc_amount": 1449.0
-    },
-    {
-      "description": "EXCERCISES IN",
-      "category": "Other",
-      "amount": 1016.16,
-      "exc_amount": 78766.01
-    }
-  ],
+  "line_items": [],
   "payments": [],
+  "page_info": {
+    "page": 8,
+    "total_pages": 8
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Discharge Bills\\2093222-11.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Discharge Bills\\2093222-11.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.43,
-    "extracted_at": "2026-02-21T13:42:54.759930",
+    "processing_time_s": 1.19,
+    "extracted_at": "2026-02-23T15:34:39.232547",
     "raw_text_chars": 3172,
-    "line_items_found": 3
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

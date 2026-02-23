@@ -1,7 +1,7 @@
 {
   "bill_type": "OPD Bill",
   "bill_number": null,
-  "bill_date": null,
+  "bill_date": "2021-03-24",
   "hospital": {
     "name": ".                                                            ASHOK Hospital |",
     "address": "P B Road.Near New City Corporation Subhast Nagar Belgaum-530016                                 a, PHONE No (0831)-2471288 2471568                                                          it",
@@ -57,11 +57,12 @@
   "line_items": [],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\OPD Bills\\31_571b46a670322c2ff61a1390ede6420a-37.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\OPD Bills\\31_571b46a670322c2ff61a1390ede6420a-37.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 0.75,
-    "extracted_at": "2026-02-21T13:43:31.334874",
+    "processing_time_s": 0.63,
+    "extracted_at": "2026-02-23T15:35:10.382386",
     "raw_text_chars": 1185,
-    "line_items_found": 0
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }

@@ -54,14 +54,58 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "RL SGOML OTSUKA [ 1247958/    21-04-2025                         32 2",
+      "category": "Other",
+      "quantity": 9.0,
+      "unit_rate": null,
+      "amount": 126.52
+    },
+    {
+      "description": "GERZONE 1.5GM          204.2025                        4617 1",
+      "category": "Other",
+      "quantity": 8.0,
+      "unit_rate": null,
+      "amount": 286.17
+    },
+    {
+      "description": "GERZONE 1.5GM          23-04-2025     <    tes!    rd       2617 2",
+      "category": "Other",
+      "quantity": 8.0,
+      "unit_rate": null,
+      "amount": 51234.0
+    },
+    {
+      "description": "NS SOOML OTSUKA INFUSION, 23-04-2025     de",
+      "category": "Pharmacy",
+      "quantity": 3008.0,
+      "unit_rate": 2.0,
+      "amount": 780.0
+    },
+    {
+      "description": "ZH MICRO RUB+ SOLUTION $00 21-04-2025                        30200 tO",
+      "category": "Other",
+      "amount": 302.0
+    },
+    {
+      "description": "EMESET 2ML            23.04.2025     bar          G       1335 2 0)",
+      "category": "Other",
+      "amount": 26.7
+    }
+  ],
   "payments": [],
+  "page_info": {
+    "page": 2,
+    "total_pages": 5
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Final Bills\\2025050500248.R1_4a3778c4-1b45-482d-94a6-fa594eef5484.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Final Bills\\2025050500248.R1_4a3778c4-1b45-482d-94a6-fa594eef5484.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.98,
-    "extracted_at": "2026-02-21T13:43:07.643970",
+    "processing_time_s": 1.56,
+    "extracted_at": "2026-02-23T15:34:49.209855",
     "raw_text_chars": 5181,
-    "line_items_found": 0
+    "line_items_found": 6,
+    "extractor_version": "v10"
   }
 }

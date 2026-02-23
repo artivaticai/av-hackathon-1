@@ -3,14 +3,14 @@
   "bill_number": "Date",
   "bill_date": "2025-02-05",
   "hospital": {
-    "name": ".                                      STAR Hospital",
+    "name": "Manipal Hospital",
     "address": "OPP.BUS STAND, VASUNDHRA NAGAR,BHIWADI,DIST.ALWAR,(RAJASTHAN), Ph.: 01493-395000, CIN No.U85100HR2015PTC068610",
     "phone": "0484 2555344,",
     "email": "sjhmanjummel@gmail.cam",
     "gstin": null
   },
   "patient": {
-    "name": "Consultant",
+    "name": "GANESH KSHIRSAGAR\neo",
     "age": 2,
     "dob": null,
     "gender": null,
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": "Dr. GANESH KSHIRSAGAR",
-    "department": "REFRENCE RANGE"
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -39,7 +39,7 @@
   "charges_summary": {
     "room_charges": 2700.0,
     "doctor_charges": null,
-    "pharmacy_charges": 13805.77,
+    "pharmacy_charges": 19.0,
     "lab_charges": null,
     "ot_charges": null,
     "nursing_charges": null,
@@ -59,134 +59,105 @@
       "description": "_                    BO",
       "category": "Other",
       "quantity": 0.0,
+      "unit_rate": null,
       "amount": 25.0
     },
     {
-      "description": "NEEDLE 1D. ML          -                                          0",
-      "category": "Pharmacy",
-      "amount": 148.36,
-      "exc_amount": 192.8
-    },
-    {
-      "description": "PHARMACY",
-      "category": "Pharmacy",
-      "quantity": 19.0,
-      "amount": 12.06,
-      "exc_amount": 225.0
-    },
-    {
-      "description": "GLAND                       4",
+      "description": "(IPBEDC1] Admission Charges",
       "category": "Other",
-      "quantity": 2.0,
-      "amount": 6.3,
-      "exc_amount": 5.65
-    },
-    {
-      "description": "GLAND                      9",
-      "category": "Other",
-      "quantity": 3.0,
-      "amount": 18.22,
-      "exc_amount": 340.02
-    },
-    {
-      "description": "ABBQTT",
-      "category": "Other",
-      "amount": 93.48,
-      "exc_amount": 923.44
-    },
-    {
-      "description": "AZOBACTAM)",
-      "category": "Other",
-      "amount": 85.0,
-      "exc_amount": 86.0
-    },
-    {
-      "description": "AZOBACTAM)",
-      "category": "Other",
-      "amount": 0.94,
-      "exc_amount": 35.52
-    },
-    {
-      "description": "BUROFLEX",
-      "category": "Other",
-      "amount": 6.29,
-      "exc_amount": 3.98
-    },
-    {
-      "description": "CHLORIDE)",
-      "category": "Other",
-      "amount": 3.98,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "FPURDFLEX",
-      "category": "Other",
-      "quantity": 10.0,
-      "amount": 3.98,
-      "exc_amount": 26.0
-    },
-    {
-      "description": "E) SAMARTH                 D",
-      "category": "Other",
-      "quantity": 113.0,
-      "amount": 93.54,
-      "exc_amount": 104.76
-    },
-    {
-      "description": "REDDYS",
-      "category": "Other",
-      "quantity": 14.0,
-      "amount": 3.08,
-      "exc_amount": 45.6
-    },
-    {
-      "description": "BROMIDE+SALBLI",
-      "category": "Other",
-      "amount": 45.6,
-      "exc_amount": 706.0
-    },
-    {
-      "description": "FEXOFENADINE)            0",
-      "category": "Other",
-      "amount": 90.0,
-      "exc_amount": 6.0
-    },
-    {
-      "description": "EXCERCISES IN",
-      "category": "Other",
-      "amount": 1.0,
-      "exc_amount": 480.5
-    },
-    {
-      "description": "EXCERCTISES IN",
-      "category": "Other",
-      "amount": 1016.16,
-      "exc_amount": 78768.01
-    },
-    {
-      "description": "LABORATORY SERVICES",
-      "category": "Other",
-      "amount": 206.0,
-      "exc_amount": 206.0
-    },
-    {
-      "description": "L042 S02/ 31-03-2027 (30049099)",
-      "category": "Other",
-      "amount": 204.2,
-      "exc_amount": 43.4
-    },
-    {
-      "description": "ER             :",
-      "category": "Other",
-      "amount": 210000.0,
-      "exc_amount": 10000.0
-    },
-    {
-      "description": "Monitoring Charges Minor",
-      "category": "Service Charges",
       "quantity": 1.0,
-      "amount": 1280.0,
-      "exc_amount": 41280.0
+      "unit_rate": 40000.0,
+      "amount": 400.0
+    },
+    {
+      "description": "[IPBEDC322] NURSING CHARGES - STANDARD",
+      "category": "Nursing",
+      "quantity": 5.0,
+      "unit_rate": 206.06,
+      "amount": 1000.0
+    },
+    {
+      "description": "{lPBEDC325] NURSING CHARGES - ICU",
+      "category": "Nursing",
+      "quantity": 4.0,
+      "unit_rate": 500.0,
+      "amount": 500.0
+    },
+    {
+      "description": "[CIPANAO1] ANAESTHESIA « CONSULTATION IP (DR SAGAR",
+      "category": "OT / Surgery",
+      "quantity": 4.0,
+      "unit_rate": 800.0,
+      "amount": 900.0
+    },
+    {
+      "description": "(CIPD007] DIETARY WARDS- CONSULTATION",
+      "category": "Consultation",
+      "quantity": 4.0,
+      "unit_rate": 250.0,
+      "amount": 25000.0
+    },
+    {
+      "description": "[CIPNSRO1] NEUROSURGERY - CONSULTATION IP (DR",
+      "category": "OT / Surgery",
+      "quantity": 6.0,
+      "unit_rate": 8400.0,
+      "amount": 140000.0
+    },
+    {
+      "description": "[IMS004] Post OT Monitoring Charges Minor",
+      "category": "OT / Surgery",
+      "quantity": 1.0,
+      "unit_rate": 1280.0,
+      "amount": 41280.0
+    },
+    {
+      "description": "[PADM360] Resident Medical Doctor Fee",
+      "category": "Consultation",
+      "quantity": 6.0,
+      "unit_rate": 200.0,
+      "amount": 1200.0
+    },
+    {
+      "description": "TAMEDO88] CAUTERY MACHINE - CHARGES",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 300.0,
+      "amount": 30000.0
+    },
+    {
+      "description": "[AMED117] Intubation Scope",
+      "category": "OT / Surgery",
+      "quantity": 1.0,
+      "unit_rate": 20.0,
+      "amount": 20.0
+    },
+    {
+      "description": "[AMED168] Basic Monitor (Eeg+Nibp+Spo2y24 Hours",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 700.0,
+      "amount": 700.0
+    },
+    {
+      "description": "State Code",
+      "category": "Other",
+      "amount": 207.0
+    },
+    {
+      "description": "l                    CS55.D,",
+      "category": "Other",
+      "amount": 400.0
+    },
+    {
+      "description": "4                            CHEMOTHERAPY Ward BEDROOM CHARGES",
+      "category": "Service Charges",
+      "amount": 2700.0
+    },
+    {
+      "description": "5                    Pharmacy",
+      "category": "Pharmacy",
+      "amount": 13805.77
     }
   ],
   "payments": [
@@ -203,12 +174,17 @@
       "amount": 89.0
     }
   ],
+  "page_info": {
+    "page": 1,
+    "total_pages": 1
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Testing data\\2025090600249.PP1_1b511cae-2632-4ff1-b2aa-614e9cb7c14a.pdf",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Testing data\\2025090600249.PP1_1b511cae-2632-4ff1-b2aa-614e9cb7c14a.pdf",
     "ocr_engine": "tesseract",
-    "processing_time_s": 34.95,
-    "extracted_at": "2026-02-21T13:44:57.183639",
-    "raw_text_chars": 50805,
-    "line_items_found": 21
+    "processing_time_s": 31.35,
+    "extracted_at": "2026-02-23T15:36:27.782326",
+    "raw_text_chars": 50625,
+    "line_items_found": 16,
+    "extractor_version": "v10"
   }
 }

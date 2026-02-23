@@ -48,37 +48,57 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 2910.13,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
   "line_items": [
+    {
+      "description": "WES 0.0% WV 1000 AR, PVC BOTTLE SOLUTION FOR",
+      "category": "Other",
+      "quantity": 1.0,
+      "unit_rate": 6224.0,
+      "amount": 224.0
+    },
+    {
+      "description": "fe3 0.9% WA’ 500 Mk, AQUA PURSE SOLUTION FOR INFUSION",
+      "category": "Pharmacy",
+      "quantity": 2.0,
+      "unit_rate": 298.0,
+      "amount": 10788.0
+    },
+    {
+      "description": "PANTOCID 40 MGMAL LYOPHILIZED POWDER FOR",
+      "category": "Other",
+      "quantity": 2.0,
+      "unit_rate": null,
+      "amount": 407.78
+    },
+    {
+      "description": "ROCA $0 UGA SR, VIAL SOLUTION FOR BUTCTION. 26",
+      "category": "Other",
+      "quantity": 2.0,
+      "unit_rate": 1010.0,
+      "amount": 201098.0
+    },
     {
       "description": "STROCIT £00 MG TABLET",
       "category": "Pharmacy",
       "quantity": 23.0,
-      "amount": 76.13,
-      "exc_amount": 1900.13
-    },
-    {
-      "description": "DETHYL COBALAMIN 1800 CO",
-      "category": "Other",
-      "amount": 55.2,
-      "exc_amount": 1010.0
+      "unit_rate": 76.13,
+      "amount": 1900.13
     }
   ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Interim Bills\\int-5.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Interim Bills\\int-5.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.51,
-    "extracted_at": "2026-02-21T13:43:23.874513",
+    "processing_time_s": 1.39,
+    "extracted_at": "2026-02-23T15:35:03.615313",
     "raw_text_chars": 3977,
-    "line_items_found": 2
+    "line_items_found": 5,
+    "extractor_version": "v10"
   }
 }

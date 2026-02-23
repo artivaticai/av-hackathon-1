@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -54,14 +54,26 @@
     "balance_due": null,
     "amount_in_words": null
   },
-  "line_items": [],
+  "line_items": [
+    {
+      "description": "rote ssionel   charge",
+      "category": "Other",
+      "amount": 1502700.0
+    },
+    {
+      "description": "Anes thesia  chavqe",
+      "category": "Other",
+      "amount": 35000.0
+    }
+  ],
   "payments": [],
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Hospital Bills\\2025080400036.R1.1_112a8ede-9eb5-4042-a2b4-3a10700ec403.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Hospital Bills\\2025080400036.R1.1_112a8ede-9eb5-4042-a2b4-3a10700ec403.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.18,
-    "extracted_at": "2026-02-21T13:43:13.827069",
+    "processing_time_s": 0.98,
+    "extracted_at": "2026-02-23T15:34:54.901163",
     "raw_text_chars": 920,
-    "line_items_found": 0
+    "line_items_found": 2,
+    "extractor_version": "v10"
   }
 }

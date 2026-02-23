@@ -1,9 +1,9 @@
 {
   "bill_type": "Hospital Bill",
   "bill_number": null,
-  "bill_date": "2018-09-18",
+  "bill_date": "2018-09-21",
   "hospital": {
-    "name": "COLUMBIAASIA                                      cst + ara",
+    "name": "COLUMBIA ASIA REFERRAL Hospital-YESHWANTHPUR,                                                                            TIN NO. : 29310803632",
     "address": "KST: : 02447277, COLUMBIA ASIA REFERRAL Hospital-YESHWANTHPUR,                                                                            TIN NO. : 29310803632",
     "phone": "080-39898969, 080-6165626",
     "email": null,
@@ -28,7 +28,7 @@
   "clinical": {
     "diagnosis": [],
     "attending_doctor": null,
-    "department": null
+    "department": "Ward"
   },
   "insurance": {
     "tpa_name": null,
@@ -48,31 +48,25 @@
     "cgst": null,
     "sgst": null,
     "igst": null,
-    "gross_total": 100.0,
+    "gross_total": null,
     "advance_paid": null,
     "tpa_deduction": null,
     "balance_due": null,
-    "amount_in_words": null,
-    "_warnings": [
-      "gross_total computed from all line items"
-    ]
+    "amount_in_words": null
   },
-  "line_items": [
-    {
-      "description": "MEDICAL SUPPLIES",
-      "category": "Other",
-      "quantity": 18.0,
-      "amount": 99.29,
-      "exc_amount": 100.0
-    }
-  ],
+  "line_items": [],
   "payments": [],
+  "page_info": {
+    "page": 1,
+    "total_pages": 6
+  },
   "_meta": {
-    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\artivatic_AI\\Hackathon\\Sample data\\Discharge Bills\\2042485-04.jpg",
+    "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Discharge Bills\\2042485-04.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.26,
-    "extracted_at": "2026-02-21T13:42:53.326360",
+    "processing_time_s": 1.85,
+    "extracted_at": "2026-02-23T15:34:38.036979",
     "raw_text_chars": 8593,
-    "line_items_found": 1
+    "line_items_found": 0,
+    "extractor_version": "v10"
   }
 }
