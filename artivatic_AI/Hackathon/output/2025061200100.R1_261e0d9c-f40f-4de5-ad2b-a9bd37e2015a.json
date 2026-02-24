@@ -70,10 +70,14 @@
   "_meta": {
     "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Summary Bills\\2025061200100.R1_261e0d9c-f40f-4de5-ad2b-a9bd37e2015a.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.05,
-    "extracted_at": "2026-02-23T15:35:24.651784",
+    "processing_time_s": 1.03,
+    "extracted_at": "2026-02-24T11:38:59.887674",
     "raw_text_chars": 2470,
     "line_items_found": 2,
-    "extractor_version": "v10"
+    "extractor_version": "v11",
+    "gpu_name": "RTX 3060",
+    "gpu_effective_w": 148.0,
+    "gpu_cost_inr": 0.00027524,
+    "elec_rate_inr_kwh": 6.5
   }
 }

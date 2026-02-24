@@ -78,10 +78,14 @@
   "_meta": {
     "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Detailed hospital bill\\2090022-final bill-1.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.12,
-    "extracted_at": "2026-02-23T15:34:26.349085",
+    "processing_time_s": 1.97,
+    "extracted_at": "2026-02-24T11:37:59.992877",
     "raw_text_chars": 4621,
     "line_items_found": 2,
-    "extractor_version": "v10"
+    "extractor_version": "v11",
+    "gpu_name": "RTX 3060",
+    "gpu_effective_w": 148.0,
+    "gpu_cost_inr": 0.00052643,
+    "elec_rate_inr_kwh": 6.5
   }
 }

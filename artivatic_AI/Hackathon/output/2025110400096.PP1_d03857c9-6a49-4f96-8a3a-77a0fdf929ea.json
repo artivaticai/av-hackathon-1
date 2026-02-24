@@ -59,10 +59,14 @@
   "_meta": {
     "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\IPD Bills\\2025110400096.PP1_d03857c9-6a49-4f96-8a3a-77a0fdf929ea.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 1.28,
-    "extracted_at": "2026-02-23T15:35:07.407705",
+    "processing_time_s": 1.26,
+    "extracted_at": "2026-02-24T11:38:42.327860",
     "raw_text_chars": 1976,
     "line_items_found": 0,
-    "extractor_version": "v10"
+    "extractor_version": "v11",
+    "gpu_name": "RTX 3060",
+    "gpu_effective_w": 148.0,
+    "gpu_cost_inr": 0.0003367,
+    "elec_rate_inr_kwh": 6.5
   }
 }

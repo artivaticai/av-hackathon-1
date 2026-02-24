@@ -197,7 +197,7 @@
     },
     {
       "description": "12-O¢t-18                 PRATOZOLE 40MG IN) - (INI)",
-      "category": "Pharmacy",
+      "category": "Other",
       "quantity": 45.2,
       "unit_rate": 1.0,
       "amount": 4520.0
@@ -432,10 +432,14 @@
   "_meta": {
     "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Testing data\\2025062000216.PP1_d5aa3d7b-a81c-4c85-9cee-bc42ee3cc925.pdf",
     "ocr_engine": "tesseract",
-    "processing_time_s": 28.57,
-    "extracted_at": "2026-02-23T15:35:56.434559",
+    "processing_time_s": 28.49,
+    "extracted_at": "2026-02-24T11:39:31.875222",
     "raw_text_chars": 26558,
     "line_items_found": 58,
-    "extractor_version": "v10"
+    "extractor_version": "v11",
+    "gpu_name": "RTX 3060",
+    "gpu_effective_w": 148.0,
+    "gpu_cost_inr": 0.00761316,
+    "elec_rate_inr_kwh": 6.5
   }
 }

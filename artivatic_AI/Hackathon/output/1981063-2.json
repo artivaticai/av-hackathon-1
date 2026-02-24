@@ -218,7 +218,7 @@
     },
     {
       "description": "HOSPITALITY SERVICES",
-      "category": "Service Charges",
+      "category": "Other",
       "amount": 96530.0
     },
     {
@@ -235,10 +235,14 @@
   "_meta": {
     "source_file": "C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\Sample data\\Detailed hospital bill\\1981063-2.jpg",
     "ocr_engine": "tesseract",
-    "processing_time_s": 2.12,
-    "extracted_at": "2026-02-23T15:34:18.500639",
+    "processing_time_s": 2.07,
+    "extracted_at": "2026-02-24T11:37:52.152697",
     "raw_text_chars": 7381,
     "line_items_found": 26,
-    "extractor_version": "v10"
+    "extractor_version": "v11",
+    "gpu_name": "RTX 3060",
+    "gpu_effective_w": 148.0,
+    "gpu_cost_inr": 0.00055315,
+    "elec_rate_inr_kwh": 6.5
   }
 }

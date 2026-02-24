@@ -3,7 +3,21 @@
   "succeeded": 55,
   "failed": 0,
   "cost_usd": 0.0,
-  "total_time_s": 220.5,
+  "total_time_s": 271.7,
+  "gpu_cost": {
+    "gpu_name": "RTX 3060",
+    "gpu_tdp_w": 170,
+    "gpu_util_pct": 40.0,
+    "system_overhead_w": 80,
+    "effective_watts": 148.0,
+    "elec_rate_inr_per_kwh": 6.5,
+    "total_seconds": 271.55,
+    "n_files": 55,
+    "cost_per_file_inr": 0.001319,
+    "total_cost_inr": 0.072564,
+    "cost_per_1000_inr": 1.3193,
+    "annual_cost_inr": 19.16
+  },
   "failed_files": [],
-  "generated_at": "2026-02-23T15:37:56.866393"
+  "generated_at": "2026-02-24T11:42:21.797425"
 }

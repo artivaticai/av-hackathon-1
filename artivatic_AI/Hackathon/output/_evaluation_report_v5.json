@@ -1,13 +1,26 @@
 {
-  "generated_at": "2026-02-23T15:38:32.936857",
+  "generated_at": "2026-02-24T11:42:45.261624",
   "timing": {
     "total_files": 55,
-    "total_s": 220.39,
-    "avg_s": 4.01,
-    "min_s": 0.63,
-    "max_s": 31.35,
-    "p50_s": 1.43,
-    "p90_s": 2.24
+    "total_s": 271.55,
+    "avg_s": 4.94,
+    "min_s": 0.78,
+    "max_s": 75.67,
+    "p50_s": 1.42,
+    "p90_s": 2.34
+  },
+  "gpu_cost": {
+    "gpu_name": "RTX 3060",
+    "effective_watts": 148.0,
+    "elec_rate_inr_per_kwh": 6.5,
+    "total_seconds": 271.55,
+    "n_files": 55,
+    "cost_per_file_inr": 0.001319,
+    "total_cost_inr": 0.072564,
+    "cost_per_1000_inr": 1.3193,
+    "annual_cost_inr": 19.16,
+    "gpt4v_equivalent_usd": 1.65,
+    "savings_pct": 99.9
   },
   "cost": {
     "total_usd": 0.0,
@@ -15,13 +28,13 @@
     "engine": "tesseract_local"
   },
   "code_quality": {
-    "error": "Script not found: C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\hospital_bill_extractor_v9.py"
+    "error": "Script not found: C:\\Users\\ravip\\OneDrive\\Desktop\\Artivatic_AI_Hackathon\\artivatic_ai\\hackathon\\hospital_bill_extractor_v11.py"
   },
   "scores": {
     "Accuracy (field)": 97.3,
     "Line-Item Accuracy": 33.64,
     "Cost Efficiency": 100.0,
-    "Response Time": 93.32,
+    "Response Time": 91.77,
     "Code Quality": 70
   },
   "weights": {
@@ -31,7 +44,7 @@
     "Response Time": 1.0,
     "Code Quality": 1.0
   },
-  "overall_score": 78.21,
+  "overall_score": 77.97,
   "accuracy": {
     "TP": 11,
     "TN": 25,
@@ -46,7 +59,7 @@
   "per_document": [
     {
       "file": "1981063-2.json",
-      "time_s": 2.12,
+      "time_s": 2.07,
       "TP": 7,
       "TN": 10,
       "FP": 1,
@@ -56,7 +69,7 @@
     },
     {
       "file": "2042173-10.json",
-      "time_s": 1.79,
+      "time_s": 2.02,
       "TP": 4,
       "TN": 15,
       "FP": 0,
